@@ -3,7 +3,7 @@ Summary:	Convert-EBCDIC perl module
 Summary(pl):	Modu³ perla Convert-EBCDIC
 Name:		perl-Convert-EBCDIC
 Version:	0.06
-Release:	4
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
