@@ -1,0 +1,16 @@
+--- Convert-EBCDIC-0.06/tools/mkctbl.pl	Thu Aug  7 03:36:12 1997
++++ Convert-EBCDIC-0.06/tools.new/mkctbl.pl	Sat Oct  2 21:32:53 1999
+@@ -1,4 +1,4 @@
+-#!/install/perl/live/bin/perl -w
++#!/usr/bin/perl -w
+ #
+ # This program creates a file containing all 256 byte values
+ # in ascending order.
+--- Convert-EBCDIC-0.06/tools/mkrtbl.pl	Thu Aug  7 03:02:37 1997
++++ Convert-EBCDIC-0.06/tools.new/mkrtbl.pl	Sat Oct  2 21:33:09 1999
+@@ -1,4 +1,4 @@
+-#!/install/perl/live/bin/perl -w
++#!/usr/bin/perl -w
+ #
+ # This program creates a file containing all 256 byte values
+ # in ascending order.
