@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Convert
-%define	pnam	EBCDIC
+%define		pdir	Convert
+%define		pnam	EBCDIC
 Summary:	Convert::EBCDIC - Perl module for string conversion between EBCDIC and ASCII
 Summary(pl):	Convert::EBCDIC - modu³ Perla do konwersji tekstów pomiêdzy EBCDIC i ASCII
 Name:		perl-Convert-EBCDIC
