@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Convert
 %define	pnam	EBCDIC
-Summary:	Convert-EBCDIC perl module
-Summary(pl):	Modu³ perla Convert-EBCDIC
+Summary:	Convert::EBCDIC perl module
+Summary(pl):	Modu³ perla Convert::EBCDIC
 Name:		perl-Convert-EBCDIC
 Version:	0.06
 Release:	8
@@ -16,11 +16,11 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Convert-EBCDIC module provides two functions ascii2ebcdic and
+Convert::EBCDIC module provides two functions ascii2ebcdic and
 ebcdic2ascii for converting a string from/to ASCII to/from EBCDIC.
 
 %description -l pl
-Modu³ Convert-EBCDIC udostêpnia dwie funkcje, ascii2ebcdic i
+Modu³ Convert::EBCDIC udostêpnia dwie funkcje, ascii2ebcdic i
 ebcdic2ascii, do konwertowania ³añcuchów ASCII do EBCDIC i EBCDIC do
 ASCII.
 
