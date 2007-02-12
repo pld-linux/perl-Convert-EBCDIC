@@ -6,7 +6,7 @@
 %define		pdir	Convert
 %define		pnam	EBCDIC
 Summary:	Convert::EBCDIC - Perl module for string conversion between EBCDIC and ASCII
-Summary(pl):	Convert::EBCDIC - modu³ Perla do konwersji tekstów pomiêdzy EBCDIC i ASCII
+Summary(pl.UTF-8):   Convert::EBCDIC - moduÅ‚ Perla do konwersji tekstÃ³w pomiÄ™dzy EBCDIC i ASCII
 Name:		perl-Convert-EBCDIC
 Version:	0.06
 Release:	10
@@ -25,9 +25,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Convert::EBCDIC module provides two functions ascii2ebcdic and
 ebcdic2ascii for converting a string from/to ASCII to/from EBCDIC.
 
-%description -l pl
-Modu³ Convert::EBCDIC udostêpnia dwie funkcje, ascii2ebcdic i
-ebcdic2ascii, do konwertowania ³añcuchów tekstowych z ASCII do EBCDIC
+%description -l pl.UTF-8
+ModuÅ‚ Convert::EBCDIC udostÄ™pnia dwie funkcje, ascii2ebcdic i
+ebcdic2ascii, do konwertowania Å‚aÅ„cuchÃ³w tekstowych z ASCII do EBCDIC
 i z EBCDIC do ASCII.
 
 %prep
