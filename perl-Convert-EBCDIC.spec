@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Convert
 %define		pnam	EBCDIC
+%include	/usr/lib/rpm/macros.perl
 Summary:	Convert::EBCDIC - Perl module for string conversion between EBCDIC and ASCII
 Summary(pl.UTF-8):	Convert::EBCDIC - moduł Perla do konwersji tekstów pomiędzy EBCDIC i ASCII
 Name:		perl-Convert-EBCDIC
@@ -16,8 +16,9 @@ Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	931cffde61b7040b2cd42002387d320d
 Patch0:		%{name}-paths.patch
-BuildRequires:	rpm-perlprov >= 4.1-13
+URL:		http://search.cpan.org/dist/Convert-EBCDIC/
 BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
