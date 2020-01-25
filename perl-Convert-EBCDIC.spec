@@ -4,7 +4,6 @@
 
 %define		pdir	Convert
 %define		pnam	EBCDIC
-%include	/usr/lib/rpm/macros.perl
 Summary:	Convert::EBCDIC - Perl module for string conversion between EBCDIC and ASCII
 Summary(pl.UTF-8):	Convert::EBCDIC - moduł Perla do konwersji tekstów pomiędzy EBCDIC i ASCII
 Name:		perl-Convert-EBCDIC
