@@ -8,7 +8,7 @@ Summary:	Convert::EBCDIC - Perl module for string conversion between EBCDIC and 
 Summary(pl.UTF-8):	Convert::EBCDIC - moduł Perla do konwersji tekstów pomiędzy EBCDIC i ASCII
 Name:		perl-Convert-EBCDIC
 Version:	0.06
-Release:	11
+Release:	12
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
